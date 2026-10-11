@@ -40,6 +40,9 @@ const router = createBrowserRouter([
       },
     ],
   },
+    {
+    basename: "/fast-react-pizza",
+  }
 ]);
 function App() {
   return <RouterProvider router={router} />;
