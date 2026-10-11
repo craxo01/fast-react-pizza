@@ -41,7 +41,7 @@ const router = createBrowserRouter([
     ],
   },
     {
-    basename: "/fast-react-pizza",
+    basename: import.meta.env.BASE_URL,
   }
 ]);
 function App() {
